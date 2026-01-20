@@ -1,0 +1,5 @@
+{
+  "appName": "Web Service with CopyWebpackPlugin",
+  "version": "1.0.0",
+  "description": "A sample configuration file that gets copied by copy-webpack-plugin"
+}
