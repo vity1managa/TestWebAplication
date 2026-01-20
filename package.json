@@ -1,0 +1,33 @@
+{
+  "name": "web-service-with-copy-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A web service using copy-webpack-plugin and tested with Mockito",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "dev": "webpack --watch --config config/webpack.config.js",
+    "test": "jest",
+    "start": "node dist/server.js",
+    "dev:start": "ts-node src/server.ts"
+  },
+  "keywords": [
+    "webpack",
+    "copy-webpack-plugin",
+    "mockito",
+    "web-service"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

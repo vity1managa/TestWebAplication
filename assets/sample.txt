@@ -1,0 +1,3 @@
+This is a sample asset file.
+It could be an image, document, or any other type of file.
+This file will be copied to the build output by copy-webpack-plugin.
